@@ -1,3 +1,10 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  ol,ul {
+    list-style: none;
+  }
 html{
     scroll-behavior: smooth;
 }
@@ -8,11 +15,16 @@ background-color:  #E0FFFF;
 }  
 
 header{
+    
     background-color: rgba(142 229 238);
 }
 
 .menu{
     text-align: center;
+}
+
+.menu ul li{
+    line-height: 1.5;
 }
 
 img{width: 20%;}
@@ -34,15 +46,51 @@ h1,h2{
     text-align: center;
     width:50%;
     float: left; 
+    margin-bottom: 2%;
 }
 
 footer{
+    padding: 2%;
     clear: both;
     background-color: rgba(142 229 238);
-    padding-top: 1%;
-    padding-bottom:  2%;
+    
 }
 
 footer p{
     text-align: center;
 }
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0); 
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #000000;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ffff;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: rgb(8, 8, 8);
+    padding: 0.7%;
+    border-radius: 25px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
